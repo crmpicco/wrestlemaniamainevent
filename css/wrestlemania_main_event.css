@@ -1,0 +1,16 @@
+@font-face {
+    font-family : 'Wrestlemania';
+    src         : url('/fonts/wrestlemania-webfont.eot');
+    src         : url('/fonts/wrestlemania-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/wrestlemania-webfont.woff') format('woff'), url('/fonts/wrestlemania-webfont.ttf') format('truetype'), url('/fonts/wrestlemania-webfont.svg#webfont') format('svg');
+}
+
+html, p, h2, body {
+    font-family : 'Wrestlemania';
+}
+
+footer {
+    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+.roman {
+    letter-spacing: 2px;
+}

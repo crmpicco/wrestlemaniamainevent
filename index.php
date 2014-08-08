@@ -63,7 +63,7 @@ function romanic_number($integer, $upcase = true)
              data-mania="{{main_event.id}}">
             <div class="fill" style="background-image:url('/images/mania{{main_event.id}}.jpg');"></div>
             <div class="carousel-caption">
-                <h2 style="font-size: 60px;">WrestleMania {{ main_event.id }}</h2>
+                <h2 style="font-size: 60px;">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
                 <h3 style="font-size: 40px;">{{ main_event.name }}</h3>
             </div>
@@ -83,7 +83,8 @@ function romanic_number($integer, $upcase = true)
 
 <!-- Page Content -->
 <div class="container">
-    <br />
+    <br/>
+
     <div class="row">
 
         <div class="col-lg-12">
