@@ -1,3 +1,11 @@
+<?php
+/**
+ * Wrestlemania Main Event main script
+ *
+ * @author Craig R Morton <crmpicco@aol.co.uk>
+ * @date   11-Aug-2014
+ */
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +25,9 @@
     <!-- jQuery Version 1.11.0 -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
+    <!-- jQuery Touchwipe plugin for touch support for carousel -->
+    <script src="js/jquery.touchwipe.min.js"></script>
+
     <!-- Bootstrap Core JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
@@ -25,35 +36,15 @@
     <link href="css/wrestlemania_main_event.css" rel="stylesheet">
 </head>
 
-<?php
-function romanic_number($integer, $upcase = true)
-{
-    $table  = array('M' => 1000, 'CM' => 900, 'D' => 500, 'CD' => 400, 'C' => 100, 'XC' => 90, 'L' => 50, 'XL' => 40, 'X' => 10, 'IX' => 9, 'V' => 5, 'IV' => 4, 'I' => 1);
-    $return = '';
-    while ($integer > 0) {
-        foreach ($table as $rom => $arb) {
-            if ($integer >= $arb) {
-                $integer -= $arb;
-                $return .= $rom;
-                break;
-            }
-        }
-    }
-
-    return $return;
-}
-
-?>
-
 <body ng-controller="MainEventCtrl" ng-app="MainEventApp">
 
 <!-- Full Page Image Background Carousel Header -->
-<header id="myCarousel" class="carousel slide">
+<header id="mania_carousel" class="carousel slide">
     <!-- Indicators -->
     <ol class="carousel-indicators" style="display: none;">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#mania_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mania_carousel" data-slide-to="1"></li>
+        <li data-target="#mania_carousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for Slides -->
@@ -63,19 +54,19 @@ function romanic_number($integer, $upcase = true)
              data-mania="{{main_event.id}}">
             <div class="fill" style="background-image:url('/images/mania{{main_event.id}}.jpg');"></div>
             <div class="carousel-caption">
-                <h2 style="font-size: 60px;">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
+                <h2>WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
-                <h3 style="font-size: 40px;">{{ main_event.name }}</h3>
+                <h3>{{ main_event.name }}</h3>
             </div>
         </div>
 
     </div>
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" href="#mania_carousel" data-slide="prev">
         <span class="icon-prev"></span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <a class="right carousel-control" href="#mania_carousel" data-slide="next">
         <span class="icon-next"></span>
     </a>
 

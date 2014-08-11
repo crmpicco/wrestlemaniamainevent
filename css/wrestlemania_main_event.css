@@ -4,7 +4,7 @@
     src         : url('/fonts/wrestlemania-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/wrestlemania-webfont.woff') format('woff'), url('/fonts/wrestlemania-webfont.ttf') format('truetype'), url('/fonts/wrestlemania-webfont.svg#webfont') format('svg');
 }
 
-html, p, h2, body {
+h2 {
     font-family : 'Wrestlemania';
 }
 
@@ -13,4 +13,31 @@ footer {
 }
 .roman {
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+    h2 {
+        font-size: 7em !important;
+    }
+    h3 {
+        font-size: 5em !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 6em !important;
+    }
+    h3 {
+        font-size: 4em !important;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    h2 {
+        font-size: 4em !important;
+    }
+    h3 {
+        font-size: 2em !important;
+    }
 }

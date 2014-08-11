@@ -170,5 +170,15 @@ $(document).ready(function () {
     // to activate the carousel
     $('.carousel').carousel({
         interval: 5000 // changes the speed
-    })
+    });
+    $("#mania_carousel").touchwipe({
+        wipeLeft: function () {
+            $('#mania_carousel').carousel('next');
+        },
+        wipeRight: function () {
+            $('#mania_carousel').carousel('prev');
+        },
+        min_move_x: 20,
+        preventDefaultEvents: false
+    });
 });
