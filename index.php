@@ -76,7 +76,7 @@
 <div class="container">
     <br/>
 
-    <div class="row">
+    <div class="row text-center twitter_container">
 
         <div class="col-lg-12">
 
@@ -102,11 +102,11 @@
     <!-- Footer -->
     <footer>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 small">
                 <p>Copyright &copy; WWE 2014</p>
             </div>
         </div>
-        <div class="row">
+        <div class="row small">
             <div class="col-lg-12">
                 <p>site by <a target="_blank" href="http://www.crmpicco.co.uk/?refer=mania_main_event">Craig R
                         Morton</a></p>

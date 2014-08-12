@@ -6,38 +6,53 @@
 
 h2 {
     font-family : 'Wrestlemania';
+    font-size   : 6em !important;
+}
+
+h3 {
+    font-size : 3em !important;
 }
 
 footer {
-    font-family: Verdana, Arial, Helvetica, sans-serif !important;
+    font-family : Verdana, Arial, Helvetica, sans-serif !important;
 }
+
 .roman {
-    letter-spacing: 2px;
+    letter-spacing : 2px;
 }
 
-@media screen and (max-width: 1024px) {
+.twitter_container {
+    padding-top    : 1.5em;
+    padding-bottom : 1.5em;
+}
+
+/* Responsive Media Queries */
+@media screen and (max-width : 1024px) {
     h2 {
-        font-size: 7em !important;
+        font-size : 5em !important;
     }
+
     h3 {
-        font-size: 5em !important;
+        font-size : 2em !important;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width : 768px) {
     h2 {
-        font-size: 6em !important;
+        font-size : 4em !important;
     }
+
     h3 {
-        font-size: 4em !important;
+        font-size : 1.5em !important;
     }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width : 568px) {
     h2 {
-        font-size: 4em !important;
+        font-size : 3em !important;
     }
+
     h3 {
-        font-size: 2em !important;
+        font-size : 1em !important;
     }
 }
