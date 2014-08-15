@@ -4,17 +4,21 @@
     src         : url('/fonts/wrestlemania-webfont.eot?#iefix') format('embedded-opentype'), url('/fonts/wrestlemania-webfont.woff') format('woff'), url('/fonts/wrestlemania-webfont.ttf') format('truetype'), url('/fonts/wrestlemania-webfont.svg#webfont') format('svg');
 }
 
+html, body {
+    font-family : 'Anton', sans-serif;
+}
+
 h2 {
     font-family : 'Wrestlemania';
-    font-size   : 6em !important;
+    font-size   : 7em !important;
 }
 
 h3 {
-    font-size : 3em !important;
+    font-size : 4em !important;
 }
 
 footer {
-    font-family : Verdana, Arial, Helvetica, sans-serif !important;
+    font-family : 'Anton', sans-serif;
 }
 
 .roman {
@@ -29,30 +33,56 @@ footer {
 /* Responsive Media Queries */
 @media screen and (max-width : 1024px) {
     h2 {
-        font-size : 5em !important;
+        font-size : 5.5em !important;
     }
 
     h3 {
-        font-size : 2em !important;
+        font-size : 2.5em !important;
+    }
+    footer {
+        font-size: 1em;
     }
 }
 
 @media screen and (max-width : 768px) {
     h2 {
-        font-size : 4em !important;
+        font-size : 4.5em !important;
+    }
+
+    h3 {
+        font-size : 2em !important;
+    }
+
+    footer {
+        font-size: 1.1em;
+    }
+
+}
+
+@media screen and (max-width : 568px) {
+    h2 {
+        font-size : 3.5em !important;
     }
 
     h3 {
         font-size : 1.5em !important;
     }
+    footer {
+        font-size: 1.2em;
+    }
+
 }
 
-@media screen and (max-width : 568px) {
+@media screen and (max-width : 320px) {
     h2 {
-        font-size : 3em !important;
+        font-size : 2.5em !important;
     }
 
     h3 {
-        font-size : 1em !important;
+        font-size : 0.75em !important;
     }
+    footer {
+        font-size: 1.3em;
+    }
+
 }

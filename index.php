@@ -11,7 +11,7 @@
 <head>
     <meta name="keywords" content="wrestlemania, wwe, main event, wwf">
     <meta name="description" content="Wrestlemania Main Events">
-    <title>Wrestlemania Main Event</title>
+    <title>WrestleMania Main Event: A showcase of the main events of WrestleMania over the years</title>
 
     <!-- Google-hosted AngularJS JavaScript -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
@@ -31,8 +31,13 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+    <!-- custom WME JavaScript -->
     <script src="js/wrestlemania_main_event.js"></script>
 
+    <!-- Google Fonts for Anton font -->
+    <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+
+    <!-- custom WME CSS -->
     <link href="css/wrestlemania_main_event.css" rel="stylesheet">
 </head>
 
@@ -101,16 +106,20 @@
 
     <!-- Footer -->
     <footer>
-        <div class="row">
-            <div class="col-lg-12 small">
+        <div class="row pull-left">
+            <div class="col-lg-12">
                 <p>Copyright &copy; WWE 2014</p>
             </div>
         </div>
-        <div class="row small">
+        <div class="clearfix"></div>
+        <div class="row pull-left">
             <div class="col-lg-12">
                 <p>site by <a target="_blank" href="http://www.crmpicco.co.uk/?refer=mania_main_event">Craig R
                         Morton</a></p>
             </div>
+        </div>
+        <div class="row pull-right">
+            built with AngularJS and Bootstrap
         </div>
     </footer>
 
