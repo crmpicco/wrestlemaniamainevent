@@ -7,10 +7,14 @@
  */
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="keywords" content="wrestlemania, wwe, main event, wwf">
-    <meta name="description" content="Wrestlemania Main Events">
+    <meta charset="utf-8">
+    <meta name="author" content="Craig R Morton">
+    <meta name="keywords"
+          content="wrestlemania, wwe, main events, wwf, wrestling, the rock, john cena, triple h, stone cold">
+    <meta name="description"
+          content="Wrestlemania Main Events - a showcase of the main events of WrestleMania over the years">
     <title>WrestleMania Main Event: A showcase of the main events of WrestleMania over the years</title>
 
     <!-- Google-hosted AngularJS JavaScript -->
@@ -56,12 +60,14 @@
     <div class="carousel-inner">
 
         <div ng-class="{'active': main_event.id == 1}" class="item" ng-repeat='main_event in main_events'
-             data-mania="{{main_event.id}}">
-            <div class="fill" style="background-image:url('/images/mania{{main_event.id}}.jpg');"></div>
+             data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
+            <div class="fill" style="background-image:url('/images/mania{{main_event.id}}.jpg?rand=<?php rand(1,500); ?>');"></div>
             <div class="carousel-caption">
-                <h2>WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
+                <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
-                <h3>{{ main_event.name }}</h3>
+                <div itemscope itemtype="http://schema.org/Person">
+                    <h3 itemprop="name">{{ main_event.name }}</h3>
+                </div>
             </div>
         </div>
 
