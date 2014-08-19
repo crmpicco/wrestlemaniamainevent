@@ -15,6 +15,7 @@
           content="wrestlemania, wwe, main events, wwf, wrestling, the rock, john cena, triple h, stone cold">
     <meta name="description"
           content="Wrestlemania Main Events - a showcase of the main events of WrestleMania over the years">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
     <title>WrestleMania Main Event: A showcase of the main events of WrestleMania over the years</title>
 
     <!-- Google-hosted AngularJS JavaScript -->
@@ -61,7 +62,7 @@
 
         <div ng-class="{'active': main_event.id == 1}" class="item" ng-repeat='main_event in main_events'
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
-            <div class="fill" style="background-image:url('/images/mania{{main_event.id}}.jpg?rand=<?php rand(1,500); ?>');"></div>
+            <div class="fill" style="background-image:url('/images/mania{{main_event.id}}.jpg?rand=<?php echo rand(1,500); ?>');"></div>
             <div class="carousel-caption">
                 <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
@@ -124,7 +125,7 @@
                         Morton</a></p>
             </div>
         </div>
-        <div class="row pull-right">
+        <div class="row pull-right tech_notes">
             built with AngularJS and Bootstrap
         </div>
     </footer>

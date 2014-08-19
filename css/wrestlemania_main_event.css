@@ -84,5 +84,11 @@ footer {
     footer {
         font-size: 1.3em;
     }
-
+    .tech_notes {
+        float: left !important;
+        margin-left: 0.1em;
+    }
+    .carousel-control.right {
+        zoom: 100%;
+    }
 }
