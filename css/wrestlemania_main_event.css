@@ -30,6 +30,11 @@ footer {
     padding-bottom : 1.5em;
 }
 
+.carousel-control .icon-prev,
+.carousel-control .icon-next {
+    font-size: 6em;
+}
+
 /* Responsive Media Queries */
 @media screen and (max-width : 1024px) {
     h2 {
@@ -41,6 +46,10 @@ footer {
     }
     footer {
         font-size: 1em;
+    }
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        font-size: 5em;
     }
 }
 
@@ -56,7 +65,10 @@ footer {
     footer {
         font-size: 1.1em;
     }
-
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        font-size: 4em;
+    }
 }
 
 @media screen and (max-width : 568px) {
@@ -70,7 +82,10 @@ footer {
     footer {
         font-size: 1.2em;
     }
-
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        font-size: 3em;
+    }
 }
 
 @media screen and (max-width : 320px) {
@@ -90,5 +105,9 @@ footer {
     }
     .carousel-control.right {
         zoom: 100%;
+    }
+    .carousel-control .icon-prev,
+    .carousel-control .icon-next {
+        font-size: 2em;
     }
 }

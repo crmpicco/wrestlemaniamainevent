@@ -62,7 +62,7 @@
 
         <div ng-class="{'active': main_event.id == 1}" class="item" ng-repeat='main_event in main_events'
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
-            <div class="fill" style="background-image:url('/images/mania{{main_event.id}}.jpg?rand=<?php echo rand(1,500); ?>');"></div>
+            <div class="fill" style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>
             <div class="carousel-caption">
                 <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
@@ -127,6 +127,12 @@
         </div>
         <div class="row pull-right tech_notes">
             built with AngularJS and Bootstrap
+        </div>
+        <div class="clearfix"></div>
+        <div class="row pull-left small">
+            <div class="col-lg-12">
+                All images appearing on this website are the exclusive property of World Wrestling Entertainment, Inc.
+            </div>
         </div>
     </footer>
 
