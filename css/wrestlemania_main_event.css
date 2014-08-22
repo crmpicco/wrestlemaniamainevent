@@ -28,11 +28,13 @@ footer {
 .twitter_container {
     padding-top    : 1.5em;
     padding-bottom : 1.5em;
+    text-align     : center;
+    margin         : 0 auto;
 }
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
-    font-size: 6em;
+    font-size : 6em;
 }
 
 /* Responsive Media Queries */
@@ -44,12 +46,14 @@ footer {
     h3 {
         font-size : 2.5em !important;
     }
+
     footer {
-        font-size: 1em;
+        font-size : 1em;
     }
+
     .carousel-control .icon-prev,
     .carousel-control .icon-next {
-        font-size: 5em;
+        font-size : 5em;
     }
 }
 
@@ -63,11 +67,12 @@ footer {
     }
 
     footer {
-        font-size: 1.1em;
+        font-size : 1.1em;
     }
+
     .carousel-control .icon-prev,
     .carousel-control .icon-next {
-        font-size: 4em;
+        font-size : 4em;
     }
 }
 
@@ -79,12 +84,14 @@ footer {
     h3 {
         font-size : 1.5em !important;
     }
+
     footer {
-        font-size: 1.2em;
+        font-size : 1.2em;
     }
+
     .carousel-control .icon-prev,
     .carousel-control .icon-next {
-        font-size: 3em;
+        font-size : 3em;
     }
 }
 
@@ -96,18 +103,22 @@ footer {
     h3 {
         font-size : 0.75em !important;
     }
+
     footer {
-        font-size: 1.3em;
+        font-size : 1.3em;
     }
+
     .tech_notes {
-        float: left !important;
-        margin-left: 0.1em;
+        float       : left !important;
+        margin-left : 0.1em;
     }
+
     .carousel-control.right {
-        zoom: 100%;
+        zoom : 100%;
     }
+
     .carousel-control .icon-prev,
     .carousel-control .icon-next {
-        font-size: 2em;
+        font-size : 2em;
     }
 }

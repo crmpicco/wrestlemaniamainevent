@@ -1,5 +1,5 @@
 <div class="row">
-    <p>
+    <div class="col-lg-12">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
              style="display:block"
@@ -9,5 +9,5 @@
         <script>
             (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-    </p>
+    </div>
 </div>
