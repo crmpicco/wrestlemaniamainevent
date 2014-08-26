@@ -39,8 +39,9 @@
     <!-- custom WME JavaScript -->
     <script src="js/wrestlemania_main_event.js"></script>
 
-    <!-- Google Fonts for Anton font -->
+    <!-- Google Fonts for Anton and Open Sans fonts -->
     <link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300' rel='stylesheet' type='text/css'>
 
     <!-- custom WME CSS -->
     <link href="css/wrestlemania_main_event.css" rel="stylesheet">

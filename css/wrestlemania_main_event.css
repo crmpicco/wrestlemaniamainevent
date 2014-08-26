@@ -1,3 +1,9 @@
+/**
+* Wrestlemania Main Event Custom CSS
+* @author Craig R Morton <crmpicco@aol.co.uk>
+* @date 26-Aug-2014
+*/
+
 @font-face {
     font-family : 'Wrestlemania';
     src         : url('/fonts/wrestlemania-webfont.eot');
@@ -5,7 +11,7 @@
 }
 
 html, body {
-    font-family : 'Anton', sans-serif;
+    font-family : 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -14,11 +20,8 @@ h2 {
 }
 
 h3 {
-    font-size : 4em !important;
-}
-
-footer {
     font-family : 'Anton', sans-serif;
+    font-size   : 4em !important;
 }
 
 .roman {
