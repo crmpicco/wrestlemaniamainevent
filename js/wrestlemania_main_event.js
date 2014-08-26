@@ -13,32 +13,50 @@ app.controller("MainEventCtrl", function ($scope) {
         {
             id: 1,
             roman_numeral: 'I',
-            name: 'Hulk Hogan & Mr T vs Rowdy Roddy Piper & Paul Orndorff'
+            name: 'Hulk Hogan & Mr T vs Rowdy Roddy Piper & Paul Orndorff',
+            venue: 'Madison Square Garden',
+            state: 'New York',
+            attendance: 19121
         },
         {
             id: 2,
             roman_numeral: 'II',
-            name: 'Hulk Hogan vs King Kong Bundy'
+            name: 'Hulk Hogan vs King Kong Bundy',
+            venue: 'Split-Transmission',
+            state: 'New York/Illinois/California',
+            attendance: 40085
         },
         {
             id: 3,
             roman_numeral: 'III',
-            name: 'Hulk Hogan vs Andre The Giant'
+            name: 'Hulk Hogan vs Andre The Giant',
+            venue: 'Silverdome',
+            state: 'Michigan',
+            attendance: 93173
         },
         {
             id: 4,
             roman_numeral: 'IV',
-            name: 'Macho Man Randy Savage vs Million Dollar Man Ted DiBiase'
+            name: 'Macho Man Randy Savage vs Million Dollar Man Ted DiBiase',
+            venue: 'Trump Plaza',
+            state: 'New Jersey',
+            attendance: 18165
         },
         {
             id: 5,
             roman_numeral: 'V',
-            name: 'Macho Man Randy Savage vs Hulk Hogan'
+            name: 'Macho Man Randy Savage vs Hulk Hogan',
+            venue: 'Trump Plaza',
+            state: 'New Jersey',
+            attendance: 18946
         },
         {
             id: 6,
             roman_numeral: 'VI',
-            name: 'Hulk Hogan vs Ultimate Warrior'
+            name: 'Hulk Hogan vs Ultimate Warrior',
+            venue: 'SkyDome',
+            state: 'Ontario, Canada',
+            attendance: 67678
         },
         {
             id: 7,
