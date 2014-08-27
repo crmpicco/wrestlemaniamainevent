@@ -74,6 +74,11 @@
                 <div itemscope itemtype="http://schema.org/Person">
                     <h3 itemprop="name">{{ main_event.name }}</h3>
                 </div>
+
+                <div class="venue_info">
+                    <h4>{{ main_event.venue }}, {{ main_event.state }}</h4>
+                    <h5>Attendance: {{ main_event.attendance | number }}</h5>
+                </div>
             </div>
         </div>
 
