@@ -45,6 +45,9 @@
 
     <!-- custom WME CSS -->
     <link href="css/wrestlemania_main_event.css" rel="stylesheet">
+
+    <!-- SEO Canonical Tag -->
+    <link rel="canonical" href="http://www.wrestlemaniamainevent.com"/>
 </head>
 
 <body ng-controller="MainEventCtrl" ng-app="MainEventApp">
@@ -63,7 +66,8 @@
 
         <div ng-class="{'active': main_event.id == 1}" class="item" ng-repeat='main_event in main_events'
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
-            <div class="fill" style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>
+            <div class="fill"
+                 style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>
             <div class="carousel-caption">
                 <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
