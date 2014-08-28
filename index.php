@@ -52,6 +52,16 @@
 
 <body ng-controller="MainEventCtrl" ng-app="MainEventApp">
 
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 <!-- Full Page Image Background Carousel Header -->
 <header id="mania_carousel" class="carousel slide">
     <!-- Indicators -->
@@ -110,6 +120,11 @@
                     fjs.parentNode.insertBefore(js, fjs);
                 }
             }(document, 'script', 'twitter-wjs');</script>
+    </div>
+
+    <div class="facebook_container">
+        <div class="fb-like" data-href="http://www.facebook.com/wrestlemaniamainevent" data-layout="button_count"
+             data-action="like" data-show-faces="false" data-share="false"></div>
     </div>
 
     <?php include_once('inc/google_adwords.php'); ?>

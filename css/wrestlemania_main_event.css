@@ -32,11 +32,14 @@ h4, h5  {
     letter-spacing : 2px;
 }
 
-.twitter_container {
+.twitter_container, .facebook_container {
     padding-top    : 1.5em;
     padding-bottom : 1.5em;
     text-align     : center;
     margin         : 0 auto;
+}
+.facebook_container {
+    padding-top    : 0;
 }
 
 .carousel-control .icon-prev,
