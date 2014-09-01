@@ -24,8 +24,9 @@ h3 {
     font-size   : 4em !important;
 }
 
-h4, h5  {
+h4, h5 {
     font-size   : 2em !important;
+    text-shadow : -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
 .roman {
@@ -38,8 +39,9 @@ h4, h5  {
     text-align     : center;
     margin         : 0 auto;
 }
+
 .facebook_container {
-    padding-top    : 0;
+    padding-top : 0;
 }
 
 .carousel-control .icon-prev,
@@ -57,8 +59,8 @@ h4, h5  {
         font-size : 2.5em !important;
     }
 
-    h4, h5  {
-        font-size   : 1.5em !important;
+    h4, h5 {
+        font-size : 1.5em !important;
     }
 
     footer {
@@ -80,8 +82,8 @@ h4, h5  {
         font-size : 2em !important;
     }
 
-    h4, h5  {
-        font-size   : 1.2em !important;
+    h4, h5 {
+        font-size : 1.2em !important;
     }
 
     footer {
@@ -103,8 +105,8 @@ h4, h5  {
         font-size : 1.5em !important;
     }
 
-    h4, h5  {
-        font-size   : 1em !important;
+    h4, h5 {
+        font-size : 1em !important;
     }
 
     footer {
@@ -126,8 +128,8 @@ h4, h5  {
         font-size : 0.75em !important;
     }
 
-    h4, h5  {
-        font-size   : 0.8em !important;
+    h4, h5 {
+        font-size : 0.8em !important;
     }
 
     footer {
