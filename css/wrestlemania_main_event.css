@@ -12,7 +12,107 @@
 
 html, body {
     font-family : 'Open Sans', sans-serif;
+    height      : 100%;
 }
+
+/* SCROLL INDICATOR - START */
+
+.header {
+    height           : calc(100% - 3em);
+    background-color : #333333;
+    width            : 100%;
+}
+
+.main {
+    width            : 100%;
+    position         : relative;
+    background-color : #ffffff;
+}
+
+.arrow-wrap {
+    position      : absolute;
+    z-index       : 1;
+    left          : 50%;
+    top           : -5em;
+    margin-left   : -5em;
+    background    : #111111;
+    width         : 10em;
+    height        : 10em;
+    padding       : 4em 2em;
+    border-radius : 50%;
+    font-size     : 0.5em;
+    display       : block;
+    box-shadow    : 0px 0px 5px 0px #333333;
+}
+
+/* a triangle to make the main part of the arrow. Adjust the border-color to fit your needs */
+.arrow {
+    float             : left;
+    position          : relative;
+    width             : 0px;
+    height            : 0px;
+    border-style      : solid;
+    border-width      : 3em 3em 0 3em;
+    border-color      : #ffffff transparent transparent transparent;
+    -webkit-transform : rotate(360deg); /* added for better anti-aliasing on webkit browsers */
+}
+
+/* a pseudo element arrow placed on top of the other one with the same color as the wrapper */
+.arrow:after {
+    content           : '';
+    position          : absolute;
+    top               : -3.2em;
+    left              : -3em;
+    width             : 0px;
+    height            : 0px;
+    border-style      : solid;
+    border-width      : 2em 3em 0;
+    border-color      : #111111 transparent transparent transparent;
+    -webkit-transform : rotate(360deg); /* added for better anti-aliasing on webkit browsers */
+}
+
+@-webkit-keyframes arrows {
+    0% {
+        top : 0;
+    }
+    10% {
+        top : 12%;
+    }
+    20% {
+        top : 0;
+    }
+    30% {
+        top : 12%;
+    }
+    40% {
+        top : -12%;
+    }
+    50% {
+        top : 12%;
+    }
+    60% {
+        top : 0;
+    }
+    70% {
+        top : 12%;
+    }
+    80% {
+        top : -12%;
+    }
+    90% {
+        top : 12%;
+    }
+    100% {
+        top : 0;
+    }
+}
+
+.arrow-wrap .arrow {
+    -webkit-animation       : arrows 2.8s 0.4s;
+    -webkit-animation-delay : 3s;
+}
+
+/* SCROLL INDICATOR - END */
 
 h2 {
     font-family : 'Wrestlemania';
@@ -71,6 +171,9 @@ h4, h5 {
     .carousel-control .icon-next {
         font-size : 5em;
     }
+    .arrow-wrap {
+        font-size: 0.5em !important;
+    }
 }
 
 @media screen and (max-width : 768px) {
@@ -94,6 +197,11 @@ h4, h5 {
     .carousel-control .icon-next {
         font-size : 4em;
     }
+
+    .arrow-wrap {
+        font-size: 0.4em !important;
+    }
+
 }
 
 @media screen and (max-width : 568px) {
@@ -117,6 +225,10 @@ h4, h5 {
     .carousel-control .icon-next {
         font-size : 3em;
     }
+    .arrow-wrap {
+        font-size: 0.3em !important;
+    }
+
 }
 
 @media screen and (max-width : 320px) {
@@ -149,4 +261,8 @@ h4, h5 {
     .carousel-control .icon-next {
         font-size : 2em;
     }
+    .arrow-wrap {
+        font-size: 0.2em !important;
+    }
+
 }

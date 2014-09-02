@@ -63,7 +63,7 @@
     }(document, 'script', 'facebook-jssdk'));</script>
 
 <!-- Full Page Image Background Carousel Header -->
-<header id="mania_carousel" class="carousel slide">
+<header id="mania_carousel" class="carousel slide header">
     <!-- Indicators -->
     <ol class="carousel-indicators" style="display: none;">
         <li data-target="#mania_carousel" data-slide-to="0" class="active"></li>
@@ -102,6 +102,11 @@
     </a>
 
 </header>
+<section class="main">
+    <a class="arrow-wrap" href="#content">
+        <span class="arrow"></span>
+    </a>
+</section>
 
 <!-- Page Content -->
 <div class="container">
