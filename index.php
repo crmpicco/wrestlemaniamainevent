@@ -112,6 +112,18 @@
 <div class="container">
     <br/>
 
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="text-center">Showcase Of The Immortals</h1>
+
+            <p>WrestleMania is a pro wrestling pay-per-view that has been produced on an annual basis by the US-based promotion WWE since 1985.</p>
+
+            <p>This is a brief showcase of the main events of the past 30 WrestleManias.</p>
+
+            <p>From Hulk Hogan and Andre The Giant in the 1980s, Bret 'The Hitman' Hart and Shawn Michaels in the 1990s, The Rock and Stone Cold Steve Austin in the 2000s right up until John Cena and The Miz in recent years this covers all main events at the showpiece of professional wrestling.</p>
+        </div>
+    </div>
+
     <div class="twitter_container">
         <a href="https://twitter.com/maniamainevent" class="twitter-follow-button" data-show-count="true"
            data-size="medium">Follow @maniamainevent</a>

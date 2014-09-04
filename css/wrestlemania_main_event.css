@@ -114,6 +114,13 @@ html, body {
 
 /* SCROLL INDICATOR - END */
 
+h1 {
+    font-family   : 'Anton', sans-serif;
+    font-size     : 2em !important;
+    margin-bottom : 1.5em;
+    margin-top    : 1.5em;
+}
+
 h2 {
     font-family : 'Wrestlemania';
     font-size   : 7em !important;
@@ -171,8 +178,9 @@ h4, h5 {
     .carousel-control .icon-next {
         font-size : 5em;
     }
+
     .arrow-wrap {
-        font-size: 0.5em !important;
+        font-size : 0.5em !important;
     }
 }
 
@@ -199,7 +207,7 @@ h4, h5 {
     }
 
     .arrow-wrap {
-        font-size: 0.4em !important;
+        font-size : 0.4em !important;
     }
 
 }
@@ -225,8 +233,9 @@ h4, h5 {
     .carousel-control .icon-next {
         font-size : 3em;
     }
+
     .arrow-wrap {
-        font-size: 0.3em !important;
+        font-size : 0.3em !important;
     }
 
 }
@@ -261,8 +270,9 @@ h4, h5 {
     .carousel-control .icon-next {
         font-size : 2em;
     }
+
     .arrow-wrap {
-        font-size: 0.2em !important;
+        font-size : 0.2em !important;
     }
 
 }

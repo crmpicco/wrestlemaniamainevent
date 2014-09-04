@@ -271,6 +271,14 @@ $(document).ready(function () {
         min_move_x: 20,
         preventDefaultEvents: false
     });
+
+    // click handler for the arrow icon to scroll to the top of the container section (where the text starts)
+    $('.arrow-wrap').click(function (event) {
+        // Preventing default action of the event
+        event.preventDefault();
+        $('html, body').animate({ scrollTop: $(".container").position().top }, "slow");
+    });
+
 });
 
 // Down arrow scroll indicator
