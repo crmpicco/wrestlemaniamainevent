@@ -74,7 +74,7 @@
     <!-- Wrapper for Slides -->
     <div class="carousel-inner">
 
-        <div ng-class="{'active': main_event.id == 1}" class="item" ng-repeat='main_event in main_events'
+        <div ng-class="{'active': main_event.id == <?php echo rand(1, 30); ?>}" class="item" ng-repeat='main_event in main_events'
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
             <div class="fill"
                  style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>
