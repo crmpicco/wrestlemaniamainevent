@@ -22,14 +22,14 @@ $result = $api->resources();
 
 
 
-echo cl_image_tag("mania12", array( "alt" => "Sample Image" ));
+//echo cl_image_tag("mania12", array( "alt" => "Sample Image" ));
 
 
 //echo "<pre>";
 //print_r($result);
 //echo "</pre>";
 //echo "<br>";
-die;
+//die;
 
 ?>
 <!DOCTYPE html>
@@ -55,6 +55,9 @@ die;
 
     <!-- jQuery Version 1.11.0 -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <!-- jQuery Cloudinary CDN plugin -->
+    <script src="js/jquery.cloudinary.js"></script>
 
     <!-- jQuery Touchwipe plugin for touch support for carousel -->
     <script src="js/jquery.touchwipe.min.js"></script>
