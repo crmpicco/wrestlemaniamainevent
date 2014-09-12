@@ -18,6 +18,19 @@ $api = new \Cloudinary\Api();
 
 $result = $api->resources();
 
+//echo cloudinary_url("mania12.jpg", array("type" => "fetch"));
+
+
+
+echo cl_image_tag("mania12", array( "alt" => "Sample Image" ));
+
+
+//echo "<pre>";
+//print_r($result);
+//echo "</pre>";
+//echo "<br>";
+die;
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
