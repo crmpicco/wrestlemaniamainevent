@@ -20,16 +20,9 @@ $result = $api->resources();
 
 //echo cloudinary_url("mania12.jpg", array("type" => "fetch"));
 
-
-
+// This works
 //echo cl_image_tag("mania12", array( "alt" => "Sample Image" ));
 
-
-//echo "<pre>";
-//print_r($result);
-//echo "</pre>";
-//echo "<br>";
-//die;
 
 ?>
 <!DOCTYPE html>
@@ -56,14 +49,17 @@ $result = $api->resources();
     <!-- jQuery Version 1.11.0 -->
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-    <!-- jQuery Cloudinary CDN plugin -->
-    <script src="js/jquery.cloudinary.js"></script>
-
     <!-- jQuery Touchwipe plugin for touch support for carousel -->
     <script src="js/jquery.touchwipe.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- jQuery Cloudinary CDN plugin -->
+    <script src="js/jquery.cloudinary.js"></script>
+
+    <!-- Angular Cloudinary CDN plugin -->
+    <script src="js/angular.cloudinary.js"></script>
 
     <!-- custom WME JavaScript -->
     <script src="js/wrestlemania_main_event.js"></script>
@@ -105,8 +101,9 @@ $result = $api->resources();
 
         <div ng-class="{'active': main_event.id == <?php echo rand(1, 30); ?>}" class="item" ng-repeat='main_event in main_events'
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
-            <div class="fill"
-                 style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>
+<!--            <div class="fill"-->
+<!--                 style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>-->
+            <cl-image public-id="mania12" />
             <div class="carousel-caption">
                 <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 

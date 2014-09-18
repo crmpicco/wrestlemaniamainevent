@@ -5,6 +5,9 @@
  * @date 06-Aug-2014
  */
 
+//$.cloudinary.config('cloud_name', 'wrestlemania-main-event');
+$.cloudinary.config().cloud_name = 'wrestlemania-main-event';
+
 // AngularJS
 var app = angular.module('MainEventApp', []);
 app.controller("MainEventCtrl", function ($scope) {
