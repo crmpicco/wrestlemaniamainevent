@@ -103,7 +103,7 @@ $result = $api->resources();
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
 <!--            <div class="fill"-->
 <!--                 style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>-->
-            <cl-image public-id="mania12" />
+            <cl-image class="fill" public-id="mania12" style="display: block;"></cl-image>
             <div class="carousel-caption">
                 <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 

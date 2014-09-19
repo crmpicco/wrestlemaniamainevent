@@ -9,7 +9,7 @@
 $.cloudinary.config().cloud_name = 'wrestlemania-main-event';
 
 // AngularJS
-var app = angular.module('MainEventApp', []);
+var app = angular.module('MainEventApp', ['cloudinary']);
 app.controller("MainEventCtrl", function ($scope) {
     // @TODO pull these from a database table or a flat file
     $scope.main_events = [
