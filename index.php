@@ -102,8 +102,10 @@ $result = $api->resources();
         <div ng-class="{'active': main_event.id == <?php echo rand(1, 30); ?>}" class="item" ng-repeat='main_event in main_events'
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
 <!--            <div class="fill"-->
-<!--                 style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div>-->
-            <cl-image class="fill" public-id="mania12" style="display: block;"></cl-image>
+<!--                 style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div> style="display: block;"-->
+            <div class="fill" style="background-image: url('<?php echo cloudinary_url("mania12", array( "quality" => "jpegmini" )); ?>');">
+<!--                <cl-image public-id="mania12"></cl-image>-->
+            </div>
             <div class="carousel-caption">
                 <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
