@@ -253,8 +253,24 @@ app.controller("MainEventCtrl", function ($scope) {
             state: 'Louisiana',
             attendance: 75167
         }
-    ]
-    ;
+    ];
+
+    // get the URL to use as the background image for each carousel slide
+    $scope.getUrl = function(main_event_id) {
+
+        // get the URL from the Cloudinary CDN for the image's public ID
+        var cldUrl = $.cloudinary.url("mania" + main_event_id,
+            {
+                format: "jpg",
+                crop: "fill",
+                width: 800,
+                height: 559,
+                quality: 60
+            });
+
+        return { 'background-image': 'url(' + cldUrl +')' };
+    }
+
 })
 ;
 

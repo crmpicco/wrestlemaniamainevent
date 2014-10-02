@@ -10,19 +10,13 @@ require 'vendor/autoload.php';
 
 \Cloudinary::config(array(
     "cloud_name" => "wrestlemania-main-event",
-    "api_key" => "882138182747955",
+    "api_key"    => "882138182747955",
     "api_secret" => "ad2prKhkAMrDZY2ZoF152k1FKHA"
 ));
 
 $api = new \Cloudinary\Api();
 
 $result = $api->resources();
-
-//echo cloudinary_url("mania12.jpg", array("type" => "fetch"));
-
-// This works
-//echo cl_image_tag("mania12", array( "alt" => "Sample Image" ));
-
 
 ?>
 <!DOCTYPE html>
@@ -99,13 +93,12 @@ $result = $api->resources();
     <!-- Wrapper for Slides -->
     <div class="carousel-inner">
 
-        <div ng-class="{'active': main_event.id == <?php echo rand(1, 30); ?>}" class="item" ng-repeat='main_event in main_events'
+        <div ng-class="{'active': main_event.id == <?php echo rand(1, 30); ?>}" class="item"
+             ng-repeat='main_event in main_events'
              data-mania="{{main_event.id}}" itemscope itemtype="http://schema.org/SportsEvent">
-<!--            <div class="fill"-->
-<!--                 style="background-image:url('http://i26.photobucket.com/albums/c103/crmpicco/WME/mania{{main_event.id}}.jpg');"></div> style="display: block;"-->
-            <div class="fill" style="background-image: url('<?php echo cloudinary_url("mania12", array( "quality" => "jpegmini" )); ?>');">
-<!--                <cl-image public-id="mania12"></cl-image>-->
-            </div>
+
+            <div class="fill" ng-controller="MainEventCtrl" ng-style="getUrl(main_event.id)"></div>
+
             <div class="carousel-caption">
                 <h2 itemprop="name">WrestleMania <span class="roman">{{ main_event.roman_numeral }}</span></h2>
 
@@ -144,11 +137,14 @@ $result = $api->resources();
         <div class="col-lg-12">
             <h1 class="text-center">Showcase Of The Immortals</h1>
 
-            <p>WrestleMania is a pro wrestling pay-per-view that has been produced on an annual basis by the US-based promotion WWE since 1985.</p>
+            <p>WrestleMania is a pro wrestling pay-per-view that has been produced on an annual basis by the US-based
+                promotion WWE since 1985.</p>
 
             <p>This is a brief showcase of the main events of the past 30 WrestleManias.</p>
 
-            <p>From Hulk Hogan and Andre The Giant in the 1980s, Bret 'The Hitman' Hart and Shawn Michaels in the 1990s, The Rock and Stone Cold Steve Austin in the 2000s right up until John Cena and The Miz in recent years this covers all main events at the showpiece of professional wrestling.</p>
+            <p>From Hulk Hogan and Andre The Giant in the 1980s, Bret 'The Hitman' Hart and Shawn Michaels in the 1990s,
+                The Rock and Stone Cold Steve Austin in the 2000s right up until John Cena and The Miz in recent years
+                this covers all main events at the showpiece of professional wrestling.</p>
         </div>
     </div>
 
