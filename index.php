@@ -8,16 +8,6 @@
 
 require 'vendor/autoload.php';
 
-\Cloudinary::config(array(
-    "cloud_name" => "wrestlemania-main-event",
-    "api_key"    => "882138182747955",
-    "api_secret" => "ad2prKhkAMrDZY2ZoF152k1FKHA"
-));
-
-$api = new \Cloudinary\Api();
-
-$result = $api->resources();
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
