@@ -22,7 +22,7 @@ require 'vendor/autoload.php';
     <title>WrestleMania Main Event: A showcase of the main events of WrestleMania over the years</title>
 
     <!-- Google-hosted AngularJS JavaScript -->
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
