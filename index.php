@@ -6,7 +6,7 @@
  * @date   11-Aug-2014
  */
 
-require 'vendor/autoload.php';
+//require 'vendor/autoload.php';
 
 ?>
 <!DOCTYPE html>
