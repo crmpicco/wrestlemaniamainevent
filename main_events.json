@@ -5,7 +5,8 @@
         "name": "Hulk Hogan & Mr T vs Rowdy Roddy Piper & Paul Orndorff",
         "venue": "Madison Square Garden",
         "state": "New York",
-        "attendance": 19121
+        "attendance": 19121,
+        "date": "1985-03-31"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "name": "Hulk Hogan vs King Kong Bundy",
         "venue": "Split-Transmission",
         "state": "New York/Illinois/California",
-        "attendance": 40085
+        "attendance": 40085,
+        "date": "1986-04-07"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "name": "Hulk Hogan vs Andre The Giant",
         "venue": "Silverdome",
         "state": "Michigan",
-        "attendance": 93173
+        "attendance": 93173,
+        "date": "1987-03-29"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "name": "Macho Man Randy Savage vs Million Dollar Man Ted DiBiase",
         "venue": "Trump Plaza",
         "state": "New Jersey",
-        "attendance": 18165
+        "attendance": 18165,
+        "date": "1988-03-27"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "name": "Macho Man Randy Savage vs Hulk Hogan",
         "venue": "Trump Plaza",
         "state": "New Jersey",
-        "attendance": 18946
+        "attendance": 18946,
+        "date": "1989-04-02"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "name": "Hulk Hogan vs Ultimate Warrior",
         "venue": "SkyDome",
         "state": "Ontario, Canada",
-        "attendance": 67678
+        "attendance": 67678,
+        "date": "1990-04-02"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "name": "Hulk Hogan vs Sgt. Slaughter",
         "venue": "Los Angeles Memorial Sports Arena",
         "state": "California",
-        "attendance": 16158
+        "attendance": 16158,
+        "date": "1991-03-24"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "name": "Hulk Hogan vs Sid Justice",
         "venue": "Hoosier Dome",
         "state": "Indiana",
-        "attendance": 62167
+        "attendance": 62167,
+        "date": "1992-04-05"
     },
     {
         "id": 9,
@@ -69,7 +77,8 @@
         "name": "Yokozuna vs Bret Hart",
         "venue": "Caesars Palace",
         "state": "Nevada",
-        "attendance": 16891
+        "attendance": 16891,
+        "date": "1993-04-04"
     },
     {
         "id": 10,
@@ -77,7 +86,8 @@
         "name": "Yokozuna vs Bret Hart",
         "venue": "Madison Square Garden",
         "state": "New York",
-        "attendance": 18065
+        "attendance": 18065,
+        "date": "1994-03-20"
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "name": "Lawrence Taylor vs Bam Bam Bigelow",
         "venue": "Hartford Civic Center",
         "state": "Connecticut",
-        "attendance": 16305
+        "attendance": 16305,
+        "date": "1995-04-02"
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "name": "Bret Hart vs Shawn Michaels",
         "venue": "Arrowhead Pond of Anaheim",
         "state": "California",
-        "attendance": 18853
+        "attendance": 18853,
+        "date": "1996-03-31"
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "name": "Sid Justice vs Undertaker",
         "venue": "Rosemount Horizon",
         "state": "Illinois",
-        "attendance": 18197
+        "attendance": 18197,
+        "date": "1997-03-23"
     },
     {
         "id": 14,
@@ -109,7 +122,8 @@
         "name": "Shawn Michaels vs Stone Cold Steve Austin",
         "venue": "FleetCenter",
         "state": "Massachusetts",
-        "attendance": 19028
+        "attendance": 19028,
+        "date": "1998-03-29"
     },
     {
         "id": 15,
@@ -117,7 +131,8 @@
         "name": "Stone Cold Steve Austin vs The Rock",
         "venue": "First Union Center",
         "state": "Pennsylvania",
-        "attendance": 20276
+        "attendance": 20276,
+        "date": "1999-03-28"
     },
     {
         "id": 16,
@@ -125,7 +140,8 @@
         "name": "Triple H vs The Rock vs Big Show vs Mick Foley",
         "venue": "Arrowhead Pond of Anaheim",
         "state": "California",
-        "attendance": 18034
+        "attendance": 18034,
+        "date": "2000-04-02"
     },
     {
         "id": 17,
@@ -133,7 +149,8 @@
         "name": "The Rock vs Stone Cold Steve Austin",
         "venue": "Reliant Astrodome",
         "state": "Texas",
-        "attendance": 67925
+        "attendance": 67925,
+        "date": "2001-04-01"
     },
     {
         "id": 18,
@@ -141,7 +158,8 @@
         "name": "Chris Jericho vs Triple H",
         "venue": "SkyDome",
         "state": "Ontario, Canada",
-        "attendance": 68237
+        "attendance": 68237,
+        "date": "2002-03-17"
     },
     {
         "id": 19,
@@ -149,7 +167,8 @@
         "name": "Kurt Angle vs Brock Lesnar",
         "venue": "Safeco Field",
         "state": "Washington",
-        "attendance": 54097
+        "attendance": 54097,
+        "date": "2003-03-30"
     },
     {
         "id": 20,
@@ -157,7 +176,8 @@
         "name": "Triple H vs Shawn Michaels vs Chris Benoit",
         "venue": "Madison Square Garden",
         "state": "New York",
-        "attendance": 18000
+        "attendance": 18000,
+        "date": "2004-03-14"
     },
     {
         "id": 21,
@@ -165,7 +185,8 @@
         "name": "Triple H vs Batista",
         "venue": "Staples Center",
         "state": "California",
-        "attendance": 20193
+        "attendance": 20193,
+        "date": "2005-04-03"
     },
     {
         "id": 22,
@@ -173,7 +194,8 @@
         "name": "John Cena vs Triple H",
         "venue": "Allstate Arena",
         "state": "Illinois",
-        "attendance": 17159
+        "attendance": 17159,
+        "date": "2006-04-02"
     },
     {
         "id": 23,
@@ -181,7 +203,8 @@
         "name": "John Cena vs Shawn Michaels",
         "venue": "Ford Field",
         "state": "Michigan",
-        "attendance": 80103
+        "attendance": 80103,
+        "date": "2007-04-01"
     },
     {
         "id": 24,
@@ -189,7 +212,8 @@
         "name": "Edge vs Undertaker",
         "venue": "Citrus Bowl",
         "state": "Florida",
-        "attendance": 74635
+        "attendance": 74635,
+        "date": "2008-03-30"
     },
     {
         "id": 25,
@@ -197,7 +221,8 @@
         "name": "Triple H vs Randy Orton",
         "venue": "Reliant Stadium",
         "state": "Texas",
-        "attendance": 72744
+        "attendance": 72744,
+        "date": "2009-04-05"
     },
     {
         "id": 26,
@@ -205,7 +230,8 @@
         "name": "John Cena vs Batista",
         "venue": "University of Phoenix Stadium",
         "state": "Arizona",
-        "attendance": 72219
+        "attendance": 72219,
+        "date": "2010-03-28"
     },
     {
         "id": 27,
@@ -213,7 +239,8 @@
         "name": "John Cena vs The Miz",
         "venue": "Georgia Dome",
         "state": "Georgia",
-        "attendance": 71617
+        "attendance": 71617,
+        "date": "2011-04-03"
     },
     {
         "id": 28,
@@ -221,7 +248,8 @@
         "name": "John Cena vs The Rock",
         "venue": "Sun Life Stadium",
         "state": "Florida",
-        "attendance": 78363
+        "attendance": 78363,
+        "date": "2012-04-01"
     },
     {
         "id": 29,
@@ -229,7 +257,8 @@
         "name": "John Cena vs The Rock",
         "venue": "MetLife Stadium",
         "state": "New Jersey",
-        "attendance": 80676
+        "attendance": 80676,
+        "date": "2013-04-07"
     },
     {
         "id": 30,
@@ -237,6 +266,7 @@
         "name": "Batista vs Randy Orton vs Daniel Bryan",
         "venue": "Mercedes-Benz Superdome",
         "state": "Louisiana",
-        "attendance": 75167
+        "attendance": 75167,
+        "date": "2014-04-06"
     }
 ]

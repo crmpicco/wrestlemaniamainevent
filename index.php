@@ -19,7 +19,7 @@
     <meta name="description"
           content="Wrestlemania Main Events - a showcase of the main events of WrestleMania over the years">
     <meta name="viewport" content="width=device-width, initial-scale=1.0;">
-    <title>WrestleMania Main Event: A showcase of the main events of WrestleMania over the years</title>
+    <title>WrestleMania Main Event: A showcase of the main events of WWE's WrestleMania PPV over the years</title>
 
     <!-- Google-hosted AngularJS JavaScript -->
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
@@ -138,6 +138,54 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-lg-12">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Main Event</th>
+                    <th>Date</th>
+                    <th>Result</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="active">
+                    <td></td>
+                    <td>Credit Card</td>
+                    <td>04/07/2014</td>
+                    <td>Call in to confirm</td>
+                </tr>
+                <tr class="success">
+                    <td>2</td>
+                    <td>Water</td>
+                    <td>01/07/2014</td>
+                    <td>Paid</td>
+                </tr>
+                <tr class="info">
+                    <td>3</td>
+                    <td>Internet</td>
+                    <td>05/07/2014</td>
+                    <td>Change plan</td>
+                </tr>
+                <tr class="warning">
+                    <td>4</td>
+                    <td>Electricity</td>
+                    <td>03/07/2014</td>
+                    <td>Pending</td>
+                </tr>
+                <tr class="danger">
+                    <td>5</td>
+                    <td>Telephone</td>
+                    <td>06/07/2014</td>
+                    <td>Due</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
     <div class="twitter_container">
         <a href="https://twitter.com/maniamainevent" class="twitter-follow-button" data-show-count="true"
            data-size="medium">Follow @maniamainevent</a>
