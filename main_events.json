@@ -6,7 +6,9 @@
         "venue": "Madison Square Garden",
         "state": "New York",
         "attendance": 19121,
-        "date": "1985-03-31"
+        "date": "1985-03-31",
+        "title_change": false,
+        "result": "Hulk Hogan & Mr. T WIN"
     },
     {
         "id": 2,
@@ -15,7 +17,9 @@
         "venue": "Split-Transmission",
         "state": "New York/Illinois/California",
         "attendance": 40085,
-        "date": "1986-04-07"
+        "date": "1986-04-07",
+        "title_change": false,
+        "result": "Hulk Hogan WIN"
     },
     {
         "id": 3,
@@ -24,7 +28,9 @@
         "venue": "Silverdome",
         "state": "Michigan",
         "attendance": 93173,
-        "date": "1987-03-29"
+        "date": "1987-03-29",
+        "title_change": false,
+        "result": "Hulk Hogan WIN"
     },
     {
         "id": 4,
@@ -33,7 +39,9 @@
         "venue": "Trump Plaza",
         "state": "New Jersey",
         "attendance": 18165,
-        "date": "1988-03-27"
+        "date": "1988-03-27",
+        "title_change": true,
+        "result": "Macho Man Randy Savage WIN"
     },
     {
         "id": 5,
@@ -42,7 +50,9 @@
         "venue": "Trump Plaza",
         "state": "New Jersey",
         "attendance": 18946,
-        "date": "1989-04-02"
+        "date": "1989-04-02",
+        "title_change": true,
+        "result": "Hulk Hogan WIN"
     },
     {
         "id": 6,
@@ -51,7 +61,9 @@
         "venue": "SkyDome",
         "state": "Ontario, Canada",
         "attendance": 67678,
-        "date": "1990-04-02"
+        "date": "1990-04-02",
+        "title_change": true,
+        "result": "Ultimate Warrior WIN"
     },
     {
         "id": 7,
@@ -60,7 +72,9 @@
         "venue": "Los Angeles Memorial Sports Arena",
         "state": "California",
         "attendance": 16158,
-        "date": "1991-03-24"
+        "date": "1991-03-24",
+        "title_change": true,
+        "result": "Hulk Hogan WIN"
     },
     {
         "id": 8,
@@ -69,7 +83,9 @@
         "venue": "Hoosier Dome",
         "state": "Indiana",
         "attendance": 62167,
-        "date": "1992-04-05"
+        "date": "1992-04-05",
+        "title_change": false,
+        "result": "Hulk Hogan WIN via DQ"
     },
     {
         "id": 9,
@@ -78,7 +94,9 @@
         "venue": "Caesars Palace",
         "state": "Nevada",
         "attendance": 16891,
-        "date": "1993-04-04"
+        "date": "1993-04-04",
+        "title_change": true,
+        "result": "Yokozuna WIN"
     },
     {
         "id": 10,
@@ -87,7 +105,9 @@
         "venue": "Madison Square Garden",
         "state": "New York",
         "attendance": 18065,
-        "date": "1994-03-20"
+        "date": "1994-03-20",
+        "title_change": true,
+        "result": "Bret Hart WIN"
     },
     {
         "id": 11,
@@ -96,7 +116,9 @@
         "venue": "Hartford Civic Center",
         "state": "Connecticut",
         "attendance": 16305,
-        "date": "1995-04-02"
+        "date": "1995-04-02",
+        "title_change": false,
+        "result": "Lawrence Taylor WIN"
     },
     {
         "id": 12,
@@ -105,7 +127,9 @@
         "venue": "Arrowhead Pond of Anaheim",
         "state": "California",
         "attendance": 18853,
-        "date": "1996-03-31"
+        "date": "1996-03-31",
+        "title_change": true,
+        "result": "Shawn Michaels WIN"
     },
     {
         "id": 13,
@@ -114,7 +138,9 @@
         "venue": "Rosemount Horizon",
         "state": "Illinois",
         "attendance": 18197,
-        "date": "1997-03-23"
+        "date": "1997-03-23",
+        "title_change": true,
+        "result": "Undertaker WIN"
     },
     {
         "id": 14,
@@ -123,7 +149,9 @@
         "venue": "FleetCenter",
         "state": "Massachusetts",
         "attendance": 19028,
-        "date": "1998-03-29"
+        "date": "1998-03-29",
+        "title_change": true,
+        "result": "Stone Cold Steve Austin WIN"
     },
     {
         "id": 15,
@@ -132,7 +160,9 @@
         "venue": "First Union Center",
         "state": "Pennsylvania",
         "attendance": 20276,
-        "date": "1999-03-28"
+        "date": "1999-03-28",
+        "title_change": true,
+        "result": "Stone Cold Steve Austin WIN"
     },
     {
         "id": 16,

@@ -150,11 +150,11 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr class="active">
-                    <td></td>
-                    <td>Credit Card</td>
-                    <td>04/07/2014</td>
-                    <td>Call in to confirm</td>
+                <tr class="active" ng-repeat='main_event in main_events'>
+                    <td>{{ main_event.roman_numeral }}</td>
+                    <td>{{ main_event.name }}</td>
+                    <td>{{ main_event.date | date:'dd-MMMM-yyyy' }}</td>
+                    <td>RESULT</td>
                 </tr>
                 <tr class="success">
                     <td>2</td>
