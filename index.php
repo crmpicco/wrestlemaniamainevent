@@ -140,6 +140,11 @@
 
     <div class="row">
         <div class="col-lg-12">
+            <p>Denotes a title change</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
             <table class="table">
                 <thead>
                 <tr>
@@ -150,35 +155,12 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr class="active" ng-repeat='main_event in main_events'>
+                <tr ng-class="{ success : main_event.title_change == true, active : main_event.title_change == false }"
+                    ng-repeat='main_event in main_events'>
                     <td>{{ main_event.roman_numeral }}</td>
                     <td>{{ main_event.name }}</td>
-                    <td>{{ main_event.date | date:'dd-MMMM-yyyy' }}</td>
-                    <td>RESULT</td>
-                </tr>
-                <tr class="success">
-                    <td>2</td>
-                    <td>Water</td>
-                    <td>01/07/2014</td>
-                    <td>Paid</td>
-                </tr>
-                <tr class="info">
-                    <td>3</td>
-                    <td>Internet</td>
-                    <td>05/07/2014</td>
-                    <td>Change plan</td>
-                </tr>
-                <tr class="warning">
-                    <td>4</td>
-                    <td>Electricity</td>
-                    <td>03/07/2014</td>
-                    <td>Pending</td>
-                </tr>
-                <tr class="danger">
-                    <td>5</td>
-                    <td>Telephone</td>
-                    <td>06/07/2014</td>
-                    <td>Due</td>
+                    <td>{{ main_event.date | date:'dd MMMM yyyy' }}</td>
+                    <td>{{ main_event.result }}</td>
                 </tr>
                 </tbody>
             </table>

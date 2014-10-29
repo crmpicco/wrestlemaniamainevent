@@ -171,7 +171,9 @@
         "venue": "Arrowhead Pond of Anaheim",
         "state": "California",
         "attendance": 18034,
-        "date": "2000-04-02"
+        "date": "2000-04-02",
+        "title_change": false,
+        "result": "Triple H WIN"
     },
     {
         "id": 17,
@@ -180,7 +182,9 @@
         "venue": "Reliant Astrodome",
         "state": "Texas",
         "attendance": 67925,
-        "date": "2001-04-01"
+        "date": "2001-04-01",
+        "title_change": true,
+        "result": "Stone Cold Steve Austin WIN"
     },
     {
         "id": 18,
@@ -189,7 +193,9 @@
         "venue": "SkyDome",
         "state": "Ontario, Canada",
         "attendance": 68237,
-        "date": "2002-03-17"
+        "date": "2002-03-17",
+        "title_change": true,
+        "result": "Triple H WIN"
     },
     {
         "id": 19,
@@ -198,7 +204,9 @@
         "venue": "Safeco Field",
         "state": "Washington",
         "attendance": 54097,
-        "date": "2003-03-30"
+        "date": "2003-03-30",
+        "title_change": true,
+        "result": "Brock Lesnar WIN"
     },
     {
         "id": 20,
@@ -207,7 +215,9 @@
         "venue": "Madison Square Garden",
         "state": "New York",
         "attendance": 18000,
-        "date": "2004-03-14"
+        "date": "2004-03-14",
+        "title_change": true,
+        "result": "Chris Benoit WIN"
     },
     {
         "id": 21,
@@ -216,7 +226,9 @@
         "venue": "Staples Center",
         "state": "California",
         "attendance": 20193,
-        "date": "2005-04-03"
+        "date": "2005-04-03",
+        "title_change": true,
+        "result": "Batista WIN"
     },
     {
         "id": 22,
@@ -225,7 +237,9 @@
         "venue": "Allstate Arena",
         "state": "Illinois",
         "attendance": 17159,
-        "date": "2006-04-02"
+        "date": "2006-04-02",
+        "title_change": false,
+        "result": "John Cena WIN"
     },
     {
         "id": 23,
@@ -234,7 +248,9 @@
         "venue": "Ford Field",
         "state": "Michigan",
         "attendance": 80103,
-        "date": "2007-04-01"
+        "date": "2007-04-01",
+        "title_change": true,
+        "result": "John Cena WIN"
     },
     {
         "id": 24,
@@ -243,7 +259,9 @@
         "venue": "Citrus Bowl",
         "state": "Florida",
         "attendance": 74635,
-        "date": "2008-03-30"
+        "date": "2008-03-30",
+        "title_change": true,
+        "result": "Undertaker WIN"
     },
     {
         "id": 25,
@@ -252,7 +270,9 @@
         "venue": "Reliant Stadium",
         "state": "Texas",
         "attendance": 72744,
-        "date": "2009-04-05"
+        "date": "2009-04-05",
+        "title_change": false,
+        "result": "Triple H WIN"
     },
     {
         "id": 26,
@@ -261,7 +281,9 @@
         "venue": "University of Phoenix Stadium",
         "state": "Arizona",
         "attendance": 72219,
-        "date": "2010-03-28"
+        "date": "2010-03-28",
+        "title_change": true,
+        "result": "John Cena WIN"
     },
     {
         "id": 27,
@@ -270,7 +292,9 @@
         "venue": "Georgia Dome",
         "state": "Georgia",
         "attendance": 71617,
-        "date": "2011-04-03"
+        "date": "2011-04-03",
+        "title_change": false,
+        "result": "The Miz WIN"
     },
     {
         "id": 28,
@@ -279,7 +303,9 @@
         "venue": "Sun Life Stadium",
         "state": "Florida",
         "attendance": 78363,
-        "date": "2012-04-01"
+        "date": "2012-04-01",
+        "title_change": false,
+        "result": "The Rock WIN"
     },
     {
         "id": 29,
@@ -288,7 +314,9 @@
         "venue": "MetLife Stadium",
         "state": "New Jersey",
         "attendance": 80676,
-        "date": "2013-04-07"
+        "date": "2013-04-07",
+        "title_change": true,
+        "result": "John Cena WIN"
     },
     {
         "id": 30,
@@ -297,6 +325,8 @@
         "venue": "Mercedes-Benz Superdome",
         "state": "Louisiana",
         "attendance": 75167,
-        "date": "2014-04-06"
+        "date": "2014-04-06",
+        "title_change": true,
+        "result": "Daniel Bryan WIN"
     }
 ]
