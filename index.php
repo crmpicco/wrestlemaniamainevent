@@ -140,7 +140,7 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <p>Denotes a title change</p>
+            <div class="legend"></div><span class="legend_note">Denotes a title change</span>
         </div>
     </div>
     <div class="row">
@@ -195,7 +195,7 @@
     <footer>
         <div class="row pull-left">
             <div class="col-lg-12">
-                <p>Copyright &copy; WWE 2014</p>
+                <p>Copyright &copy; WWE <?php echo date('Y'); ?></p>
             </div>
         </div>
         <div class="clearfix"></div>

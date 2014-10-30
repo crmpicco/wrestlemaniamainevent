@@ -15,6 +15,18 @@ html, body {
     height      : 100%;
 }
 
+.legend {
+    height           : 30px;
+    background-color : #dff0d8;
+    width            : 30px;
+    border           : 1px solid #dddddd;
+    display          : inline-block;
+}
+
+.legend_note {
+    margin-left: 1em;
+}
+
 /* SCROLL INDICATOR - START */
 
 .header {
