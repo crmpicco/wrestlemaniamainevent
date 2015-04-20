@@ -6,8 +6,6 @@
  * @date   11-Aug-2014
  */
 
-//require 'vendor/autoload.php';
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -130,7 +128,7 @@
             <p>WrestleMania is a pro wrestling pay-per-view that has been produced on an annual basis by the US-based
                 promotion WWE since 1985.</p>
 
-            <p>This is a brief showcase of the main events of the past 30 WrestleManias.</p>
+            <p>This is a brief showcase of the main events of the past <?php echo (date('Y')-1985)+1; ?> WrestleManias.</p>
 
             <p>From Hulk Hogan and Andre The Giant in the 1980s, Bret 'The Hitman' Hart and Shawn Michaels in the 1990s,
                 The Rock and Stone Cold Steve Austin in the 2000s right up until John Cena and The Miz in recent years

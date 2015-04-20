@@ -328,5 +328,16 @@
         "date": "2014-04-06",
         "title_change": true,
         "result": "Daniel Bryan WIN"
+    },
+    {
+      "id": 31,
+      "roman_numeral": "XXXI",
+      "name": "Roman Reigns vs Brock Lesnar",
+      "venue": "Levi's Stadium",
+      "state": "California",
+      "attendance": 76976,
+      "date": "2015-03-29",
+      "title_change": true,
+      "result": "Seth Rollins WIN (via MITB cash-in)"
     }
 ]
