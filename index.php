@@ -5,7 +5,6 @@
  * @author Craig R Morton <crmpicco@aol.co.uk>
  * @date   11-Aug-2014
  */
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -123,6 +122,13 @@
 
     <div class="row">
         <div class="col-lg-12">
+            <!-- WWE Shop Commission Junction Banner -->
+            <div class="text-center">
+                <a href="http://www.anrdoezrs.net/click-7804948-11777116-1408630669000" target="_blank">
+                    <img src="http://www.lduhtrp.net/image-7804948-11777116-1408630669000" width="468" height="60" alt="$25 off $150+ with code WWEAFF25_468x60" border="0"/>
+                </a>
+            </div>
+
             <h1 class="text-center">Showcase Of The Immortals</h1>
 
             <p>WrestleMania is a pro wrestling pay-per-view that has been produced on an annual basis by the US-based
@@ -164,7 +170,17 @@
             </table>
 
         </div>
-
+        <!-- WWE Shop Commission Junction Banners -->
+        <div class="col-lg-6 text-center">
+            <a href="http://www.anrdoezrs.net/click-7804948-11940064-1418854100000" target="_blank">
+                <img src="http://www.ftjcfx.com/image-7804948-11940064-1418854100000" width="300" height="250" alt="" border="0"/>
+            </a>
+        </div>
+        <div class="col-lg-6 text-center">
+            <a href="http://www.tkqlhce.com/click-7804948-10918264-1408630263000" target="_blank">
+                <img src="http://www.lduhtrp.net/image-7804948-10918264-1408630263000" width="300" height="250" alt="$10 off $70+ with code WWESAVE10_300x250" border="0"/>
+            </a>
+        </div>
     </div>
     <div class="twitter_container">
         <a href="https://twitter.com/maniamainevent" class="twitter-follow-button" data-show-count="true"
