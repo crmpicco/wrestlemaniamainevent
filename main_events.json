@@ -339,5 +339,27 @@
       "date": "2015-03-29",
       "title_change": true,
       "result": "Seth Rollins WIN (via MITB cash-in)"
+    },
+    {
+        "id": 32,
+        "roman_numeral": "XXXII",
+        "name": "Triple H vs Roman Reigns",
+        "venue": "AT&T Stadium",
+        "state": "Texas",
+        "attendance": 101763,
+        "date": "2016-04-03",
+        "title_change": true,
+        "result": "Roman Reigns WIN"
+    },
+    {
+        "id": 33,
+        "roman_numeral": "XXXIII",
+        "name": "Randy Orton vs Bray Wyatt",
+        "venue": "Camping World Stadium",
+        "state": "Florida",
+        "attendance": 75245,
+        "date": "2017-04-02",
+        "title_change": true,
+        "result": "Randy Orton WIN"
     }
 ]

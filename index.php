@@ -168,18 +168,6 @@
                 </tr>
                 </tbody>
             </table>
-
-        </div>
-        <!-- WWE Shop Commission Junction Banners -->
-        <div class="col-lg-6 text-center">
-            <a href="http://www.anrdoezrs.net/click-7804948-11940064-1418854100000" target="_blank">
-                <img src="http://www.ftjcfx.com/image-7804948-11940064-1418854100000" width="300" height="250" alt="" border="0"/>
-            </a>
-        </div>
-        <div class="col-lg-6 text-center">
-            <a href="http://www.tkqlhce.com/click-7804948-10918264-1408630263000" target="_blank">
-                <img src="http://www.lduhtrp.net/image-7804948-10918264-1408630263000" width="300" height="250" alt="$10 off $70+ with code WWESAVE10_300x250" border="0"/>
-            </a>
         </div>
     </div>
     <div class="twitter_container">
